@@ -1,4 +1,21 @@
 {
+  "CF105598876": {
+    "contest_id": 476,
+    "language": "GNU C++14",
+    "path": "codeforces\\476\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dreamoon and Stairs",
+    "problem_url": "https://codeforces.com/contest/476/problem/A",
+    "submission_id": "CF105598876",
+    "submission_url": "https://codeforces.com/contest/476/submission/105598876",
+    "tags": [
+      "implementation",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jan/27/2021 22:11"
+  },
   "CF105630084": {
     "contest_id": 1426,
     "language": "GNU C++14",
