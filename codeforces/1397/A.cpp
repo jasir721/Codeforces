@@ -1,49 +1,71 @@
-#include<bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define fs ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-#define mod 1000000007
-#define pb push_back
-#define fr(i,n) for(i=0;i<n;i++)
-#define frl(i,n) for(i=n;i>0;i--)
-int gcd(int a,int b) 
-{ 
-	if (a == 0) 
-	return b; 
-	return gcd(b%a, a);
-}
-
-int main()
-{
-    fs 
-    ll i,t,j;
-    cin>>t;
-    while(t--)
-    {
-      ll n,ctr=0;
-      string s;
-      ctr=0;
+   #include<bits/stdc++.h>
+   using namespace std;
+   #define ll long long
+   #define fr(i,n) for(int i=0;i<n;i++)
+   int gcd(int a,int b) { if (a == 0) return b; return gcd(b%a, a);}
+   int maxi(int a[],int n)
+   {
+      int max=a[0],j=0;
+      for(int i=1;i<n;i++)
+      {
+         if(a[i]>max)
+         {
+            max=a[i];
+            j=i;
+         }
+      }
+      return j;
+   }
+   int mini(int a[],int n)
+   {
+      int min=a[0],j=0;
+      for(int i=1;i<n;i++)
+      {
+         if(a[i]<min)
+         {
+            min=a[i];
+            j=i;
+         }
+      }
+      return j;
+   }
+   /*********************************************************************************************************************/
+   void solve()
+   {   
+      int n,m=0;
       cin>>n;
-       ll a[26]={0};
+      map<char,int>v;
+      set<int>sett;
       fr(i,n)
       {
-            cin>>s;
-            fr(j,s.length())
-            {
-                 a[(int)s[j]-97]++; 
-            }
+         string s;
+         cin>>s;
+         int k=s.length();
+         fr(i,k){
+            v[s[i]]++;
+            sett.insert((int)s[i]);
+         }
       }
-      fr(i,26)
+      for(int i=97;i<=122;i++)
       {
-      if(a[i]%n!=0)
-      ctr=1;
-      //cout<<a[i]<<"\t";
-      }      
-      if(ctr)
-      cout<<"NO"<<endl;
+         if(v[char(i)]%n==0&&v[char(i)]!=0)
+         m++;
+      }
+     // cout<<m<<" "<<sett.size()<<"\n";
+      if(m==sett.size())
+      cout<<"YES\n";
       else
-      cout<<"YES"<<endl;
-    }
+      cout<<"NO\n";
 
-    return 0;
-}
+
+   }
+   int main()
+   {
+      ios::sync_with_stdio(0);
+      cin.tie(0);
+      int t;
+      cin>>t;
+      while(t--)
+         solve();
+      return 0;    
+   }
