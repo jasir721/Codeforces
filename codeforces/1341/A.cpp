@@ -1,0 +1,54 @@
+   #include<bits/stdc++.h>
+   using namespace std;
+   #define ll long long
+   #define fr(i,n) for(int i=0;i<n;i++)
+   int gcd(int a,int b) { if (a == 0) return b; return gcd(b%a, a);}
+   int maxi(int a[],int n)
+   {
+      int max=a[0],j=0;
+      for(int i=1;i<n;i++)
+      {
+         if(a[i]>max)
+         {
+            max=a[i];
+            j=i;
+         }
+      }
+      return j;
+   }
+   int mini(int a[],int n)
+   {
+      int min=a[0],j=0;
+      for(int i=1;i<n;i++)
+      {
+         if(a[i]<min)
+         {
+            min=a[i];
+            j=i;
+         }
+      }
+      return j;
+   }
+   /*********************************************************************************************************************/
+   void solve()
+   {   
+      int n,a,b,c,d;
+      cin>>n>>a>>b>>c>>d;
+      int min=n*(a-b);
+      int max=n*(a+b);
+      int mint=c-d,maxt=c+d;
+      if((min>=mint&&min<=maxt)||(max<=maxt&&max>=mint)||(min<mint&&max>maxt))
+      cout<<"Yes\n";
+      else
+      cout<<"No\n";
+   }
+   int main()
+   {
+      ios::sync_with_stdio(0);
+      cin.tie(0);
+      int t;
+      cin>>t;
+      while(t--)
+         solve();
+      return 0;    
+   }

@@ -1,4 +1,20 @@
 {
+  "CF105928280": {
+    "contest_id": 1341,
+    "language": "GNU C++14",
+    "path": "codeforces\\1341\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nastya and Rice",
+    "problem_url": "https://codeforces.com/contest/1341/problem/A",
+    "submission_id": "CF105928280",
+    "submission_url": "https://codeforces.com/contest/1341/submission/105928280",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/29/2021 21:45"
+  },
   "CF105939790": {
     "contest_id": 1398,
     "language": "GNU C++14",
