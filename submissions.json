@@ -1,4 +1,20 @@
 {
+  "CF105941493": {
+    "contest_id": 119,
+    "language": "GNU C++14",
+    "path": "codeforces\\119\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Epic Game",
+    "problem_url": "https://codeforces.com/contest/119/problem/A",
+    "submission_id": "CF105941493",
+    "submission_url": "https://codeforces.com/contest/119/submission/105941493",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/29/2021 22:18"
+  },
   "CF105944599": {
     "contest_id": 1196,
     "language": "GNU C++14",
