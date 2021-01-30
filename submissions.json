@@ -1,4 +1,20 @@
 {
+  "CF106022836": {
+    "contest_id": 1350,
+    "language": "GNU C++14",
+    "path": "codeforces\\1350\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Orac and Factors",
+    "problem_url": "https://codeforces.com/contest/1350/problem/A",
+    "submission_id": "CF106022836",
+    "submission_url": "https://codeforces.com/contest/1350/submission/106022836",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jan/30/2021 18:48"
+  },
   "CF106023559": {
     "contest_id": 1401,
     "language": "GNU C++14",
