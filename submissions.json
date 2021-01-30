@@ -1,4 +1,22 @@
 {
+  "CF106021757": {
+    "contest_id": 1220,
+    "language": "GNU C++14",
+    "path": "codeforces\\1220\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cards",
+    "problem_url": "https://codeforces.com/contest/1220/problem/A",
+    "submission_id": "CF106021757",
+    "submission_url": "https://codeforces.com/contest/1220/submission/106021757",
+    "tags": [
+      "implementation",
+      "sortings",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jan/30/2021 18:34"
+  },
   "CF106022836": {
     "contest_id": 1350,
     "language": "GNU C++14",
