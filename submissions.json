@@ -1,4 +1,21 @@
 {
+  "CF106245680": {
+    "contest_id": 567,
+    "language": "GNU C++14",
+    "path": "codeforces\\567\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lineland Mail",
+    "problem_url": "https://codeforces.com/contest/567/problem/A",
+    "submission_id": "CF106245680",
+    "submission_url": "https://codeforces.com/contest/567/submission/106245680",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Feb/02/2021 10:17"
+  },
   "CF106245970": {
     "contest_id": 1183,
     "language": "GNU C++14",
