@@ -1,4 +1,22 @@
 {
+  "CF106419708": {
+    "contest_id": 1180,
+    "language": "GNU C++14",
+    "path": "codeforces\\1180\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alex and a Rhombus",
+    "problem_url": "https://codeforces.com/contest/1180/problem/A",
+    "submission_id": "CF106419708",
+    "submission_url": "https://codeforces.com/contest/1180/submission/106419708",
+    "tags": [
+      "dp",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Feb/04/2021 10:01"
+  },
   "CF106420882": {
     "contest_id": 514,
     "language": "GNU C++14",
