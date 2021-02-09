@@ -1,4 +1,21 @@
 {
+  "CF107003289": {
+    "contest_id": 1238,
+    "language": "GNU C++14",
+    "path": "codeforces\\1238\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Prime Subtraction",
+    "problem_url": "https://codeforces.com/contest/1238/problem/A",
+    "submission_id": "CF107003289",
+    "submission_url": "https://codeforces.com/contest/1238/submission/107003289",
+    "tags": [
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Feb/09/2021 22:12"
+  },
   "CF107003815": {
     "contest_id": 1006,
     "language": "GNU C++14",
