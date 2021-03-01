@@ -1,4 +1,21 @@
 {
+  "CF108826784": {
+    "contest_id": 1154,
+    "language": "GNU C++14",
+    "path": "codeforces\\1154\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Gourmet Cat",
+    "problem_url": "https://codeforces.com/contest/1154/problem/C",
+    "submission_id": "CF108826784",
+    "submission_url": "https://codeforces.com/contest/1154/submission/108826784",
+    "tags": [
+      "implementation",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Mar/01/2021 23:16"
+  },
   "CF109093554": {
     "contest_id": 1371,
     "language": "GNU C++14",
