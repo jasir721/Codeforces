@@ -1,4 +1,21 @@
 {
+  "CF109722570": {
+    "contest_id": 701,
+    "language": "GNU C++14",
+    "path": "codeforces\\701\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cards",
+    "problem_url": "https://codeforces.com/contest/701/problem/A",
+    "submission_id": "CF109722570",
+    "submission_url": "https://codeforces.com/contest/701/submission/109722570",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/11/2021 21:41"
+  },
   "CF109932252": {
     "contest_id": 1481,
     "language": "GNU C++14",
