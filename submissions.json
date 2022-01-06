@@ -2374,6 +2374,22 @@
     ],
     "timestamp": "Mar/18/2021 10:09"
   },
+  "CF141841081": {
+    "contest_id": 455,
+    "language": "GNU C++14",
+    "path": "codeforces\\455\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Boredom",
+    "problem_url": "https://codeforces.com/contest/455/problem/A",
+    "submission_id": "CF141841081",
+    "submission_url": "https://codeforces.com/contest/455/submission/141841081",
+    "tags": [
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Jan/06/2022 21:37"
+  },
   "CF141851787": {
     "contest_id": 271,
     "language": "GNU C++14",
