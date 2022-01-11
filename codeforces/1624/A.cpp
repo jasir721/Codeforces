@@ -12,7 +12,7 @@ void solve()
    fr(i,n)
    cin>>A[i],mx=max(mx,A[i]),mn=min(mn,A[i]);
    cout<<mx-mn<<"\n";
-
+   return;
 }
 int main()
 {
