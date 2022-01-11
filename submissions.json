@@ -2374,6 +2374,23 @@
     ],
     "timestamp": "Mar/18/2021 10:09"
   },
+  "CF142331088": {
+    "contest_id": 282,
+    "language": "GNU C++14",
+    "path": "codeforces\\282\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Painting Eggs",
+    "problem_url": "https://codeforces.com/contest/282/problem/B",
+    "submission_id": "CF142331088",
+    "submission_url": "https://codeforces.com/contest/282/submission/142331088",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jan/11/2022 11:37"
+  },
   "CF142332132": {
     "contest_id": 1624,
     "language": "GNU C++14",
