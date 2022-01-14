@@ -2374,6 +2374,23 @@
     ],
     "timestamp": "Mar/18/2021 10:09"
   },
+  "CF142723111": {
+    "contest_id": 242,
+    "language": "GNU C++14",
+    "path": "codeforces\\242\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Big Segment",
+    "problem_url": "https://codeforces.com/contest/242/problem/B",
+    "submission_id": "CF142723111",
+    "submission_url": "https://codeforces.com/contest/242/submission/142723111",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Jan/14/2022 21:55"
+  },
   "CF142732530": {
     "contest_id": 285,
     "language": "GNU C++14",
